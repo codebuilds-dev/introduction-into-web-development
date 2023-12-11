@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif
+}
+
+div {
+    background-color: rgb(241, 241, 241);
+    margin-left: 10%; margin-right: 10%;
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(55, 94, 151);
+    font-family: Georgia;
+    border-bottom: 1px solid rgb(55, 94, 151);
+}
+
+.image {
+    width: 70px;
+}
+
+h2 {
+    margin-bottom: -8px;              
+}
+
+strong {
+    color: rgb(153, 153, 153);
+}
+
+#additional-info {
+    border: 2px solid rgb(8, 83, 196);
+    margin-right: 50%;
+    padding: 4px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.info-column{
+    width: 60%;
+}
+
+.dark-mode  {
+    background-color: black;
+
+    & div {
+        background-color: rgb(29, 29, 29);
+
+        color: white;
+    }      
+}

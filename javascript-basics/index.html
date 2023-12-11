@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <title>
+        About James Bond
+    </title>
+</head>
+
+<body>
+    <div>
+        <h1>James Bond <img class="image" src="james-bond.png" hidden="true"/></h1>
+
+        <h2>Personal Information</h2>
+        <p>
+            <strong>Name:</strong> James Bond
+            <br>
+            <strong>Date of Birth:</strong> April 4, 1968
+            <br>
+            <strong>Place of Birth:</strong> London, United Kingdom
+        </p>
+
+        <h2>Work</h2>
+        <p>
+            <strong>Occupation:</strong> Secret Agent
+            <br>
+            <strong>Agency:</strong> MI6 - British Secret Intelligence Service
+        </p>
+
+        <h2 class="skills">Skills</h2>
+
+        <ol>
+            <li>Expert in hand-to-hand combat</li>
+            <li>Marksmanship</li>
+            <li>Covert operations</li>
+        </ol>
+
+        <h2>Adittional Information</h2>
+        <p id="additional-info">
+            <strong>Signature Quote:</strong> <i>"Bond, James Bond."</i>
+            <br>
+
+            <strong>List of Movies:</strong>
+            For a full list click
+            <a href="https://en.wikipedia.org/wiki/List_of_James_Bond_films">here</a>
+        </p>
+        <button id="dark-mode-btn" onclick="toggleDarkMode()">Dark Mode</button>
+
+        <input placeholder="Enter secret" class="secret">
+        <button onclick="verifySecret()">Verify Secret</button>
+    </div>
+</body>
+
+</html>
